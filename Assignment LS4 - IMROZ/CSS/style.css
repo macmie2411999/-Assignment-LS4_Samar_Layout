@@ -1,0 +1,300 @@
+* {
+  /* Căn chỉnh về giá trị mặc định */
+  margin: 0;
+  padding: 0;
+}
+
+.clear {
+  clear: both;
+}
+
+.header {
+  background-color: hsl(9deg 41% 97%);
+}
+
+.header .container {
+  padding: 15px 50px;
+}
+
+.header .container .logo {
+  padding-bottom: 15px;
+  display: block; /* Chuyển thẻ inline thành block */
+}
+
+.header .container .navigation a {
+  margin-right: 15px;
+  /* padding-right: 15px; */
+  text-decoration: none; /* Thuộc tính chỉnh dấu gạch chân thẻ <a> */
+  color: #000;
+  font-size: 25px;
+}
+
+.carousel {
+  height: 800px;
+  background-image: url(../Images/BG.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center; /* Vị trí hình load ra <div> */
+}
+
+.products {
+  background: hsl(9deg 41% 97%);
+}
+
+.products .container .product-title {
+  padding-top: 50px;
+  text-align: center;
+}
+
+.products .container .product-list {
+  padding: 30px;
+  position: relative;
+}
+
+.products .container .product-list .product-item {
+  float: left; /* Chỉnh các div inline-block nằm trên 1 hàng load từ bên trái qua */
+  width: 25%; /* width, height so với thẻ cha */
+  padding: 0 15px;
+  margin-bottom: 50px;
+  /* padding-left: 30px; */
+  box-sizing: border-box; /* Loại trừ độ rộng các thuộc tính: border, padding */
+  /* border: 1px solid #000; */
+  background-color: hsl(9deg 41% 97%);
+}
+
+.products .container .product-list .product-item .container {
+  background-color: #fff;
+  padding: 25px;
+  box-sizing: border-box; /* Loại trừ độ rộng các thuộc tính: border, padding */
+  border-radius: 25px; /* Bo góc */
+  position: relative;
+}
+
+.products .container .product-list .product-item .container .thumbnail {
+  /* position: relative; */
+}
+
+.products .container .product-list .product-item .container .thumbnail img {
+  width: 100%;
+  padding: 15px;
+  box-sizing: border-box;
+  border-radius: 30px; /* Bo góc */
+  /* position: absolute; 
+    Vị trí so với relative gần nhất */
+}
+
+.products .container .product-list .product-item .container .thumbnail a {
+  right: 30px;
+  top: 40px;
+  padding: 10px;
+  border-radius: 10px; /* Bo góc */
+  position: absolute; /* Vị trí so với relative gần nhất */
+  background: rgba(255, 255, 255, 0.5); /* Độ mờ từ 0. đến 1 */
+  text-decoration: none;
+  font-size: 25px;
+  width: 30px;
+}
+
+.products .container .product-list .product-item .container a {
+  display: inline-block;
+  text-align: center;
+  background-color: #e8e8e8;
+  padding: 15px 0;
+  width: 80%;
+  margin: 10px 35px;
+  border-radius: 30px;
+  color: #a3a3a3;
+  text-decoration: none;
+}
+
+.products .container .view-all a {
+  display: inline-block;
+  text-align: center;
+  font-size: 25px;
+  background-color: hsl(9deg 41% 97%);
+  padding: 15px 0;
+  width: 20%;
+  /* margin: auto; */
+  margin-bottom: 70px;
+  border-radius: 30px;
+  color: #f59105;
+  border: 1px solid #f59105;
+  text-decoration: none;
+}
+
+.about {
+  background-color: hsl(12deg 67% 92%);
+}
+.about .blank {
+  background-color: hsl(9deg 41% 97%);
+  padding-top: 100px;
+}
+
+.about .container {
+  height: 500px;
+  background: url(../Images/mask.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: right center;
+  /* Vị trí hình load ra <div> */
+  display: block;
+  padding-right: 60px;
+  padding-top: 100px;
+
+  /* Không thể set border-radius khi set 4 thuộc tính background ở trên*/
+  border-radius: 50px;
+}
+
+.about .container .thumbnail {
+  float: left;
+}
+
+.about .container .thumbnail img {
+  width: 100%;
+  padding: 50px;
+  display: inline-block;
+}
+
+.about .container .content .about-title {
+  padding-left: 100px;
+}
+
+.about .container .content .about-title .title {
+  font-size: 45px;
+  padding: 20px 100px;
+}
+
+.about .container .content .about-title .title-content {
+  font-size: 25px;
+  
+}
+
+.about .container .content .about-title .title {
+  font-size: 45px;
+}
+
+.about .container .content .link-follow {
+  display: left;
+}
+
+/*mm*/
+.about .container .content .link-follow .link-download {
+  display: inline-block;
+}
+
+.about .container .content .link-follow .link-download .download-our-app {
+  font-size: 25px;
+  padding-left: 80px;
+  padding-top: 50px;
+  padding-bottom: 20px;
+  font-weight: bold;
+}
+
+.about .container .content .link-follow .link-download .thumbnail {
+  width: 450px;
+  padding-left: 80px;
+}
+
+.about .container .content .link-follow .link-download .thumbnail img {
+  width: 40%;
+  margin: 0;
+  padding: 0;
+}
+
+/*mm*/
+.about .container .content .link-follow .link-social-media {
+  display: inline-block;
+}
+
+.about .container .content .link-follow .link-social-media .follow-us {
+  font-size: 25px;
+  padding-left: 20px;
+  padding-top: 50px;
+  padding-bottom: 20px;
+  font-weight: bold;
+}
+
+.about .container .content .link-follow .link-social-media .thumbnail img {
+  width: 15%;
+  margin: 0;
+  padding: 0;
+}
+
+/* .about .container .content .link-follow .link-social-media .thumbnail {
+  display: inline-block;
+} */
+
+.footer .container {
+  background-color: hsl(12deg 67% 92%);
+  border-radius: 25% 25% 0 0;
+}
+
+.footer {
+  background-color: hsl(9deg 41% 97%);
+}
+
+.footer .container .all-infor {
+  padding: 100px;
+  text-align: top;
+}
+
+.footer .container .all-infor .to-camp {
+  display: inline-block;
+}
+
+.footer .container .all-infor .title {
+  font-size: 25px;
+  font-weight: bold;
+  /* padding-top:120px;
+  padding-bottom: 40px; */
+}
+
+.footer .container .all-infor .content {
+  font-size: 20px;
+  line-height: 40px;
+  /* padding-left: 70px; */
+}
+
+.footer .container .all-infor .help-you {
+  display: inline-block;
+  padding-left: 50px;
+}
+
+.footer .container .all-infor .plan {
+  display: inline-block;
+  padding-left: 50px;
+}
+
+.footer .container .all-infor .help-you-again {
+  display: inline-block;
+  padding-left: 50px;
+}
+
+/* 
+Thuộc tính CSS:
+    + padding: cách giữa nội dung và phần viền của thẻ (không áp dụng cho thẻ inline đối với top và bottom, do thẻ inline nội dung ôm đoạn text)
+        - padding: cách đều 4 cạnh
+        - padding: 15px 20px (trên dưới 15, trái phải 20)
+        - padding: top right bottom left
+        - padding-left, padding-top,...
+    + Thuộc tính thừa hưởng tử CSS cha: color, font-size, text-align...
+*/
+
+/* 
+Margin vs Padding:
+    + Khoảng cách từ viền thẻ đến nội dung: Padding
+    + Khoàng cách từ viền 2 thẻ: Margin 
+*/
+
+/* 
+Border: border-width border-style border-color;
+    (border: 1px solid #000;)
+*/
+
+/* 
+Position: Relative vs Absolute
+  + Relative: lấy phần đó lên tại vị trí hiện tại (di chuyển bằng top, left, right, bottom)
+  + Absolute: Lấy vị trí so với position của phần tử cha gần nhất làm mốc (di chuyển bằng top, left, right, bottom) 
+  + Fixed: Lấy theo tọa độ body 
+    - z-index: chỉ số để xét phần tử nào nằm trên (trong postion)
+*/
