@@ -6,7 +6,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <link rel="stylesheet" href="./CSS/style.css">
-    <title>Camping</title>
+    <title>Samar - HTML Template</title>
+
+    <!-- FONT -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+
+    <!-- FONT AWESOME -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css"
+        integrity="sha512-10/jx2EXwxxWqCLX/hHth/vu2KY3jCF70dCQB8TSgNjbCVAC/8vai53GfMDrO2Emgwccf2pJqxct9ehpzG+MTw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- FONT Line Awesome -->
+    <link rel="stylesheet"
+        href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css">
+
     <!-- FontAwesome 6.1.1 CSS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
         integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
@@ -20,194 +36,739 @@
 
 <body>
     <!-- HEADER -->
-    <div class="header">
-        <div class="container">
-            <a class="logo" href="#">
-                <img src="./Images/logoicon.png" alt="logo" />
-            </a>
+    <header>
+      <div class="container">
+          <div class="header__content">
+              <a href="#">
+                  <img src="./Images/logo-2.png" alt="">
+              </a>
+              <nav>
+                  <ul>
+                      <li><a href="#">
+                              <span>Home</span>
+                              <i class="fa fa-chevron-down"></i>
+                          </a></li>
+                      <li><a href="#">
+                              <span>Pages</span>
+                              <i class="fa fa-chevron-down"></i>
+                          </a></li>
+                      <li><a href="#">
+                              <span>Services</span>
+                              <i class="fa fa-chevron-down"></i>
+                          </a></li>
+                      <li><a href="#">
+                              <span>Post Layout</span>
+                              <i class="fa fa-chevron-down"></i>
+                          </a></li>
+                      <li><a href="#">
+                              <span>Blog</span>
+                              <i class="fa fa-chevron-down"></i>
+                          </a></li>
+                      <li><a href="#">
+                              <span>Contact Us</span>
+                              <i class="fa fa-chevron-down"></i>
+                          </a></li>
+                  </ul>
+                  <div>
+                      <button class="btn-get-quote">GET A QUOTE</button>
+                  </div>
+              </nav>
 
-            <div class="navigation">
-                <a href="#">Home</a>
-                <a href="#">Services</a>
-                <a href="#">Destinations</a>
-                <a href="#">Events</a>
-                <a href="#">Gallery</a>
-                <a href="#">Contact Us</a>
-            </div>
-        </div>
-    </div>
+          </div>
+      </div>
+  </header>
 
-    <!-- CAROUSEL -->
-    <div class="carousel">
+  <!-- CAROUSEL -->
+  <section class="saCarousel">
+      <div class="container">
+          <div class="saCarousel__content">
+              <div class="saCarousel__left">
+                  <div class="title">
+                      <p class="animate__animated animate__fadeInUp ">We are The Best</p>
+                      <h2 class="animate__animated animate__fadeInUp animate__delay-1s">Freelance Product Designer Running</h2>
+                  </div>
+                  <div class="saCarousel__article">
+                      <p class="animate__animated animate__fadeInUp animate__delay-2s">We develop the relationships that underpin the next phase in your
+                          <br> organisation’s growth.
+                      </p>
+                      <ul class="animate__animated animate__fadeInUp animate__delay-3s">
+                          <li>
+                              <i class="las la-check"></i>
+                              Master's degree in designing
+                          </li>
+                          <li>
+                              <i class="las la-check"></i>
+                              Outstanding mobile design
+                          </li>
+                      </ul>
+                      <button class="btn-get-started">
+                          GET STARTED
+                      </button>
+                  </div>
+              </div>
+              <div class="saCarousel__right">
+                  <div class="saCarousel__banner animate__animated animate__fadeInUp animate__delay-3s">
+                      <img src="./Images/pic3_1.png" alt="">
+                  </div>
+              </div>
+          </div>
+      </div>
+  </section>
+  <section class="services section-inner">
+      <div class="container">
+          <div class="title">
+              <p>What We Do Best</p>
+              <h2>Our Digital Services</h2>
+          </div>
+          <div class="services__content">
+              <div class="services__item">
+                  <img src="./Images/pic1_3.jpg" alt="">
+                  <h3>Web Development</h3>
+                  <p>Vestibulum a efficitur ex. Ut iaculis dapibus iaculis. Praesent lacus magna, rhoncus quis magna
+                      quis.</p>
+              </div>
+              <div class="services__item">
+                  <img src="./Images/pic2_2.jpg" alt="">
+                  <h3>Strategy & Research</h3>
+                  <p>Vestibulum a efficitur ex. Ut iaculis dapibus iaculis. Praesent lacus magna, rhoncus quis magna
+                      quis.</p>
+              </div>
+              <div class="services__item">
+                  <img src="./Images/pic3_2.jpg" alt="">
+                  <h3>Growth Tracking</h3>
+                  <p>Vestibulum a efficitur ex. Ut iaculis dapibus iaculis. Praesent lacus magna, rhoncus quis magna
+                      quis.</p>
+              </div>
+          </div>
+      </div>
+  </section>
+  <section class="aboutUs section-inner">
+      <div class="container">
+          <div class="aboutUs__content">
+              <div class="aboutUs__left wow animate__animated animate__fadeInLeft" data-wow-duration="2s" data-wow-delay="0.2s">
+                  <img src="./Images/pic1.jpg" alt="">
+              </div>
+              <div class="aboutUs__right wow animate__animated animate__fadeInRight" data-wow-duration="2s" data-wow-delay="0.2s">
+                  <div class="title">
+                      <p>About Us</p>
+                      <h2>Build Your <br> Business Website <br> Better</h2>
+                  </div>
+                  <p>Proin laoreet leo vel enim gravida, at porttitor metus ultricies. Cras eu velit enim. Vivamus
+                      blandit, dolor ut aliquet rutrum, ex elit mattis sapien, non molestie felis neque et nulla. Sed
+                      euismod turpis id nibh suscipit semper. Pellentesque dapibus risus arcu.</p>
+                  <ul>
+                      <li>
+                          <i class="flaticon-check"></i>
+                          We support programs that create advancement opportunities for people.
+                      </li>
+                      <li>
+                          <i class="flaticon-check"></i>Get a view of events and trends. Be updated on our recent
+                          news.
+                      </li>
+                      <li><i class="flaticon-check"></i>Finally, it all comes down to people. Creating a winning team.
+                      </li>
+                      <li><i class="flaticon-check"></i>Get a view of events and trends. Be updated on our recent
+                          news.</li>
+                  </ul>
+                  <button class="btn-gradient">
+                      learn more
+                  </button>
+              </div>
+          </div>
+      </div>
+  </section>
+  <section class="number">
+      <div class="container">
+          <div class="number__content">
+              <div class="number__item">
+                  <i class="flaticon-smile"></i>
+                  <p><span class="counter">18</span> Ml</p>
+                  <p>Satisfied Clients</p>
+              </div>
+              <div class="number__item">
+                  <i class="flaticon-line-chart"></i>
+                  <p><span class="counter">20</span> Ml</p>
+                  <p>Project Completed</p>
+              </div>
+              <div class="number__item">
+                  <i class="flaticon-startup"></i>
+                  <p><span class="counter">30</span> Ml</p>
+                  <p>Project Lunched</p>
+              </div>
+              <div class="number__item">
+                  <i class="flaticon-confetti"></i>
+                  <p><span class="counter">50</span></p>
+                  <p>Years Completed</p>
+              </div>
+          </div>
+      </div>
+  </section>
+  <section class="features section-inner">
+      <div class="container">
+          <div class="features__content">
+              <div class="features__left ">
+                  <div class="title wow animate__animated animate__fadeInLeft" data-wow-duration="2s" data-wow-delay="0.2s">
+                      <p>Our Features</p>
+                      <h2>Behind The Story <br> Of Samar Agency</h2>
+                  </div>
+                  <div class="features__group">
+                      <div class="features__item wow animate__animated animate__fadeInRight" data-wow-duration="2s" data-wow-delay="0.4s">
+                          <div class="features__bg">
+                              <i class="flaticon-idea"></i>
+                              <div>
+                                  <h3>Idea & Analysis Gathering</h3>
+                                  <p>Maecenas laoreet efficitur sagittis. Aliquam eleifend nisl leo, sit amet
+                                      consequat augue.</p>
+                              </div>
+                          </div>
+                      </div>
+                      <div class="features__item wow animate__animated animate__fadeInRight" data-wow-duration="2s" data-wow-delay="0.6s">
+                          <div class="features__bg">
 
-    </div>
+                              <i class="flaticon-coding"></i>
+                              <div>
+                                  <h3>Design & Developing</h3>
+                                  <p>Maecenas laoreet efficitur sagittis. Aliquam eleifend nisl leo, sit amet
+                                      consequat augue.</p>
+                              </div>
+                          </div>
+                      </div>
+                      <div class="features__item wow animate__animated animate__fadeInRight" data-wow-duration="2s" data-wow-delay="0.8s">
+                          <div class="features__bg">
 
-    <!-- PRODUCTS -->
-    <div class="products">
-        <div class="container">
-            <div class="product-title">
-                <img class="img-logo" src="./Images/Group 313.png" alt="logo2" />
-                <h1>Explore Destination and Activities</h1>
-            </div>
+                              <i class="flaticon-rocket"></i>
+                              <div>
+                                  <h3>Testing & Lunching</h3>
+                                  <p>Maecenas laoreet efficitur sagittis. Aliquam eleifend nisl leo, sit amet
+                                      consequat augue.</p>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+              <div class="features__right">
+                  <div class="features__banner">
+                      <img src="./Images/pic3.png" alt="">
+                  </div>
+              </div>
+          </div>
+      </div>
+  </section>
+  <section class="portfolio section-inner">
+      <div class="container">
+          <div class="title">
+              <p>Portfolio</p>
+              <h2>Our Latest Work</h2>
+          </div>
+          <div class="portfolio__content" id="animated-thumbnails">
+              <div class="portfolio__item portfolio__item1 wow animate__animated animate__fadeInUp">
+                  <img src="./Images/pic1_2.jpg" alt="">
+                  <div class="portfolio__overlay">
+                      <div class="portfolio__icon">
+                          <a data-exthumbimage="./Images/pic1_2.jpg" data-lg-size="2500-2500" class="lightimg"
+                              data-src="./Images/pic1_2.jpg" data-sub-html="Design">
+                              <i class="la la-plus"></i>
+                          </a>
+                      </div>
+                      <div class="portfolio__text">
+                          <h3>Software Landing</h3>
+                          <p>By Jhone Doe</p>
+                      </div>
+                  </div>
+              </div>
+              <div class="portfolio__item  wow animate__animated animate__fadeInUp">
+                  <img src="./Images/pic2_1.jpg" alt="">
+                  <div class="portfolio__overlay">
+                      <div class="portfolio__icon">
+                          <a data-exthumbimage="./Images/pic2_1.jpg" data-lg-size="2500-2500" class="lightimg"
+                              data-src="./Images/pic2_1.jpg" data-sub-html="Design">
+                              <i class="la la-plus"></i>
+                          </a>
+                      </div>
+                      <div class="portfolio__text">
+                          <h3>Software Landing</h3>
+                          <p>By Jhone Doe</p>
+                      </div>
+                  </div>
+              </div>
+              <div class="portfolio__item  wow animate__animated wow animate__animated animate__fadeInUp animate__delay-1s">
+                  <img src="./Images/pic3_1.jpg" alt="">
+                  <div class="portfolio__overlay">
+                      <div class="portfolio__icon">
+                          <a data-exthumbimage="./Images/pic3_1.jpg" data-lg-size="2500-2500" class="lightimg"
+                              data-src="./Images/pic3_1.jpg" data-sub-html="Design">
+                              <i class="la la-plus"></i>
+                          </a>
+                      </div>
+                      <div class="portfolio__text">
+                          <h3>Software Landing</h3>
+                          <p>By Jhone Doe</p>
+                      </div>
+                  </div>
+              </div>
+              <div class="portfolio__item  wow animate__animated animate__fadeInUp animate__delay-1s">
+                  <img src="./Images/pic4.jpg" alt="">
+                  <div class="portfolio__overlay">
+                      <div class="portfolio__icon">
+                          <a data-exthumbimage="./Images/pic4.jpg" data-lg-size="2500-2500" class="lightimg"
+                              data-src="./Images/pic4.jpg" data-sub-html="Design">
+                              <i class="la la-plus"></i>
+                          </a>
+                      </div>
+                      <div class="portfolio__text">
+                          <h3>Software Landing</h3>
+                          <p>By Jhone Doe</p>
+                      </div>
+                  </div>
+              </div>
+              <div class="portfolio__item portfolio__item5 wow animate__animated animate__fadeInUp animate__delay-2s">
+                  <img src="./Images/pic5.jpg" alt="">
+                  <div class="portfolio__overlay">
+                      <div class="portfolio__icon">
+                          <a data-exthumbimage="./Images/pic5.jpg" data-lg-size="2500-2500" class="lightimg"
+                              data-src="./Images/pic5.jpg" data-sub-html="Design">
+                              <i class="la la-plus"></i>
+                          </a>
+                      </div>
+                      <div class="portfolio__text">
+                          <h3>Software Landing</h3>
+                          <p>By Jhone Doe</p>
+                      </div>
+                  </div>
+              </div>
+              <div class="portfolio__item portfolio__item6 wow animate__animated animate__fadeInUp animate__delay-1s">
+                  <img src="./Images/pic6.jpg" alt="">
+                  <div class="portfolio__overlay">
+                      <div class="portfolio__icon">
+                          <a data-exthumbimage="./Images/pic6.jpg" data-lg-size="2500-2500" class="lightimg"
+                              data-src="./Images/pic6.jpg" data-sub-html="Design">
+                              <i class="la la-plus"></i>
+                          </a>
+                      </div>
+                      <div class="portfolio__text">
+                          <h3>Software Landing</h3>
+                          <p>By Jhone Doe</p>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </section>
+  <section class="plan section-inner">
+      <div class="container">
+          <div class="title">
+              <p>Choose Your Plan</p>
+              <h2>Choose Your Plan</h2>
+          </div>
+          <div class="plan__content">
+              <div class="plan__item">
+                  <h3>Basic Plan</h3>
+                  <img src="./Images/pic4_1.jpg" alt="">
+                  <p><span>$49</span>/Month</p>
+                  <ul>
+                      <li>
+                          <i class="fa fa-check"></i>
+                          Graphic Design
+                      </li>
+                      <li>
+                          <i class="fa fa-check"></i>
+                          Web Design
+                      </li>
+                      <li>
+                          <i class="fa fa-check"></i>
+                          UI/UX
+                      </li>
+                      <li>
+                          <i class="fa fa-check"></i>
+                          HTML/CSS
+                      </li>
+                      <li>
+                          <i class="fa fa-check"></i>
+                          SEO Marketing
+                      </li>
+                      <li>
+                          <i class="fa fa-check"></i>
+                          Business Analysis
+                      </li>
+                  </ul>
+                  <button class="btn-gradient">start now</button>
+              </div>
+              <div class="plan__item">
+                  <h3>Basic Plan</h3>
+                  <img src="./Images/pic5_1.jpg" alt="">
+                  <p><span>$49</span>/Month</p>
+                  <ul>
+                      <li>
+                          <i class="fa fa-check"></i>
+                          Graphic Design
+                      </li>
+                      <li>
+                          <i class="fa fa-check"></i>
+                          Web Design
+                      </li>
+                      <li>
+                          <i class="fa fa-check"></i>
+                          UI/UX
+                      </li>
+                      <li>
+                          <i class="fa fa-check"></i>
+                          HTML/CSS
+                      </li>
+                      <li>
+                          <i class="fa fa-check"></i>
+                          SEO Marketing
+                      </li>
+                      <li>
+                          <i class="fa fa-check"></i>
+                          Business Analysis
+                      </li>
+                  </ul>
+                  <button class="btn-gradient">start now</button>
+              </div>
+              <div class="plan__item">
+                  <h3>Basic Plan</h3>
+                  <img src="./Images/pic6_1.jpg" alt="">
+                  <p><span>$49</span>/Month</p>
+                  <ul>
+                      <li>
+                          <i class="fa fa-check"></i>
+                          Graphic Design
+                      </li>
+                      <li>
+                          <i class="fa fa-check"></i>
+                          Web Design
+                      </li>
+                      <li>
+                          <i class="fa fa-check"></i>
+                          UI/UX
+                      </li>
+                      <li>
+                          <i class="fa fa-check"></i>
+                          HTML/CSS
+                      </li>
+                      <li>
+                          <i class="fa fa-check"></i>
+                          SEO Marketing
+                      </li>
+                      <li>
+                          <i class="fa fa-check"></i>
+                          Business Analysis
+                      </li>
+                  </ul>
+                  <button class="btn-gradient">start now</button>
+              </div>
+          </div>
+      </div>
+  </section>
+  <section class="testimonial section-inner">
+      <div class="container">
+          <div class="title">
+              <p>Testimonial</p>
+              <h2>What Our Clients Say’s</h2>
+          </div>
+          <div class="testimonial__content">
+              <div class="testimonial__thumbs">
+                  <div class="swiper-wrapper">
+                      <div class="swiper-slide">
+                          <div class="testimonial__pic">
+                              <img src="https://samar.dexignzone.com/xhtml/images/testimonials/pic1.jpg" alt="">
+                              <div class="shape-bx"></div>
+                          </div>
 
-            <div class="product-list">
-                <div class="product-item">
-                    <div class="container">
-                        <!-- Nếu gặp các phần tử/thẻ đè lên nhau thì các phần tử đó cần phải bỏ chung vào một thẻ <div></div> -->
-                        <div class="thumbnail">
-                            <img src="./Images/product1.png" / alt="Product1">
-                            <a href="#"><i class="fa fa-heart" style="color: red"></i></a>
-                        </div>
-                        <h1>Trickle Creek Ranch</h1>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non nesciunt magni neque quo facilis
-                            tempora quos sunt, asperiores fuga consectetur.</p>
-                        <a href="#">Read More</a>
-                    </div>
-                </div>
+                      </div>
+                      <div class="swiper-slide">
+                          <div class="testimonial__pic">
+                              <img src="https://samar.dexignzone.com/xhtml/images/testimonials/pic2.jpg" alt="">
+                              <div class="shape-bx"></div>
+                          </div>
+                      </div>
+                      <div class="swiper-slide">
+                          <div class="testimonial__pic">
+                              <img src="https://samar.dexignzone.com/xhtml/images/testimonials/pic3.jpg" alt="">
+                              <div class="shape-bx"></div>
+                          </div>
+                      </div>
+                  </div>
 
-                <div class="product-item">
-                    <div class="container">
-                        <div class="thumbnail">
-                            <img src="./Images/product4.png" / alt="Product1">
-                            <a href="#"><i class="fa fa-heart" style="color: red"></i></a>
-                        </div>
-                        <h1>Trickle Creek Ranch</h1>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non nesciunt magni neque quo facilis
-                            tempora quos sunt, asperiores fuga consectetur.</p>
-                        <a href="#">Read More</a>
-                    </div>
-                </div>
+              </div>
 
-                <div class="product-item">
-                    <div class="container">
-                        <div class="thumbnail">
-                            <img src="./Images/product5.png" / alt="Product1">
-                            <a href="#"><i class="fa fa-heart" style="color: red"></i></a>
-                        </div>
-                        <h1>Trickle Creek Ranch</h1>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non nesciunt magni neque quo facilis
-                            tempora quos sunt, asperiores fuga consectetur.</p>
-                        <a href="#">Read More</a>
-                    </div>
-                </div>
+              <div class="testimonial__comment">
+                  <div class="swiper-wrapper">
+                      <div class="swiper-slide">
 
-                <div class="product-item">
-                    <div class="container">
-                        <div class="thumbnail">
-                            <img src="./Images/product1.png" / alt="Product1">
-                            <a href="#"><i class="fa fa-heart" style="color: red"></i></a>
-                        </div>
-                        <h1>Trickle Creek Ranch</h1>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non nesciunt magni neque quo facilis
-                            tempora quos sunt, asperiores fuga consectetur.</p>
-                        <a href="#">Read More</a>
-                    </div>
-                </div>
+                          <div class="testimonial__text">
+                              <i class="flaticon-quotation"></i>
+                              <h3 class="testimonial__name">Cak Dikin 1</h3>
+                              <p class="testimonial__position">CEO &amp; Founder </p>
+                              <p>Duis feugiat est tincidunt ligula maximus convallis. Aenean ultricies, mi non
+                                  vestibulum auctor, erat tortor porttitor ipsum, nec dictum tortor sem eget nunc.
+                                  Etiam sed facilisis erat.</p>
+                          </div>
 
-            </div>
+                      </div>
+                      <div class="swiper-slide">
+                          <div class="testimonial__text">
+                              <i class="flaticon-quotation"></i>
+                              <h3 class="testimonial__name">Cak Dikin 1</h3>
+                              <p class="testimonial__position">CEO &amp; Founder </p>
+                              <p>Duis feugiat est tincidunt ligula maximus convallis. Aenean ultricies, mi non
+                                  vestibulum auctor, erat tortor porttitor ipsum, nec dictum tortor sem eget nunc.
+                                  Etiam sed facilisis erat.</p>
+                          </div>
 
-            <div class="view-all">
-                <div class="container">
-                    <div class="tag-a-view-all">
-                        <!-- <a href="#">View All</a></div> -->
-                        <center> <a href="#">View All</a></center>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
 
-    <div class="clear"></div>
+                      </div>
+                      <div class="swiper-slide">
+                          <div class="testimonial__text">
+                              <i class="flaticon-quotation"></i>
+                              <h3 class="testimonial__name">Cak Dikin 1</h3>
+                              <p class="testimonial__position">CEO &amp; Founder </p>
+                              <p>Duis feugiat est tincidunt ligula maximus convallis. Aenean ultricies, mi non
+                                  vestibulum auctor, erat tortor porttitor ipsum, nec dictum tortor sem eget nunc.
+                                  Etiam sed facilisis erat.</p>
+                          </div>
 
-    <!-- ABOUT -->
-    <div class="about">
-        <div class="container">
-            <div class="thumbnail">
-                <img src="./Images/homeicon.png" / alt="home-icon">
-            </div>
 
-            <div class="content">
-                <div class="about-title">
-                    <p class="title">Let's Stay in Touch</p>
-                    <p class="title-content">Get travel planning ideas, helpful tips, and stories from our visitors
-                        delivered to your inbox</p>
-                </div>
+                      </div>
+                  </div>
+                  <div class="swiper-pagination"></div>
+              </div>
+          </div>
+      </div>
+  </section>
+  <section class="blog section-inner">
+      <div class="container">
+          <div class="title">
+              <p>Our Blog</p>
+              <h2>Latest News & Blog</h2>
+          </div>
+          <div class="blog__content">
+              <div class="owl-carousel owl-theme">
+                  <div class="blog__item">
+                      <div class="blog__header">
+                          <img src="./Images/pic1_1.jpg" alt="">
+                          <p>23 MARCH 2022</p>
+                      </div>
+                      <div class="blog__body">
+                          <h3>Lorem ipsum dolor sit amet consectetur.</h3>
+                          <p>Nunc convallis sagittis dui eu dictum. Cras sodales id ipsum ac aliquam. Phasellus justo
+                              quam.</p>
 
-                <div class="link-follow">
-                    <div class="link-download">
-                        <p class="download-our-app">Download Our App</p>
-                        <div class="thumbnail">
-                            <img class="thumbnail1" src="./Images/download-on-the-app-store-apple-1.png" /
-                                alt="apple-store">
-                            <img class="thumbnail2" src="./Images/google-play-badge-1.png" / alt="google-play">
-                        </div>
-                    </div>
+                      </div>
+                      <div class="blog__footer">
+                          <p>
+                              <i class="las la-user-circle"></i>
+                              By
+                              <span>Johne Doe</span>
+                          </p>
+                          <p>
+                              <i class="las la-comment"></i>
+                              <span>Comments 15</span>
+                          </p>
+                      </div>
+                  </div>
+                  <div class="blog__item">
+                      <div class="blog__header">
+                          <img src="./Images/pic2.jpg" alt="">
+                          <p>23 MARCH 2022</p>
+                      </div>
+                      <div class="blog__body">
+                          <h3>Lorem ipsum dolor sit amet consectetur.</h3>
+                          <p>Nunc convallis sagittis dui eu dictum. Cras sodales id ipsum ac aliquam. Phasellus justo
+                              quam.</p>
 
-                    <div class="link-social-media">
-                        <p class="follow-us">Follow Us</p>
-                        <div class="thumbnail">
-                            <img class="thumbnail1" src="./Images/bonfire.png" / alt="bonfire">
-                            <img class="thumbnail2" src="./Images/Group 313.png" / alt="group">
-                            <img class="thumbnail3" src="./Images/fishing-1.png" / alt="fishing">
-                            <img class="thumbnail4" src="./Images/temicon.png" / alt="temicon">
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
+                      </div>
+                      <div class="blog__footer">
+                          <p>
+                              <i class="las la-user-circle"></i>
+                              By
+                              <span>Johne Doe</span>
+                          </p>
+                          <p>
+                              <i class="las la-comment"></i>
+                              <span>Comments 15</span>
+                          </p>
+                      </div>
+                  </div>
+                  <div class="blog__item">
+                      <div class="blog__header">
+                          <img src="./Images/pic3.jpg" alt="">
+                          <p>23 MARCH 2022</p>
+                      </div>
+                      <div class="blog__body">
+                          <h3>Lorem ipsum dolor sit amet consectetur.</h3>
+                          <p>Nunc convallis sagittis dui eu dictum. Cras sodales id ipsum ac aliquam. Phasellus justo
+                              quam.</p>
 
-        <div class="blank">
-            <p></p>
-        </div>
-    </div>
+                      </div>
+                      <div class="blog__footer">
+                          <p>
+                              <i class="las la-user-circle"></i>
+                              By
+                              <span>Johne Doe</span>
+                          </p>
+                          <p>
+                              <i class="las la-comment"></i>
+                              <span>Comments 15</span>
+                          </p>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </section>
+  <footer>
+      <div class="container">
+          <div class="footer__top wow animate__animated animate__fadeInUp">
+              <div class="footer__text">
+                  <h2>
 
-    <div class="footer">
-        <div class="container">
-            <div class="all-infor">
-                <div class="to-camp">
-                    <p class="title"> Hipcamp is everywhere you want to camp.</p>
-                    <p class="content"> Discover unique experiences on ranches, nature preserves, farms, vineyards,
-                        <br />
-                        and public campgrounds across the U.S. Book tent camping, treehouses, cabins, <br />
-                        yurts, primitive backcountry sites, car camping, tiny houses, RV <br />
-                        camping, glamping tents and more.
-                    </p>
-                    <p class="content"><br /></p>
-                </div>
+                      Subscribe To Our Newsletter
+                  </h2>
+              </div>
+              <div class="footer__form">
+                  <form>
+                      <input type="text" name="" id="" placeholder="Your Email Address">
+                      <button>
+                          <i class="las la-paper-plane"></i>
+                      </button>
+                  </form>
+              </div>
+          </div>
+          <div class="footer__bottom">
+              <div class="footer__item wow animate__animated animate__fadeIn animate__delay-1s">
+                  <a href="#">
+                      <img src="./Images/logo-white.png" alt="">
+                  </a>
+                  <ul class="footer__contact">
+                      <li>
+                          <i class="fa fa-phone"></i>
+                          <span>
+                              1800-123-4567
+                              <br>
+                              +91 987-654-3210
+                          </span>
+                      </li>
+                      <li>
+                          <i class="fa fa-envelope"></i>
+                          <span>
+                              info@example.com
+                              <br>
+                              services@gmail.com
+                          </span>
+                      </li>
+                      <li>
+                          <i class="fas fa-map-marker-alt"></i>
+                          <span>
 
-                <div class="help-you">
-                    <p class="title">Let Us Help You</p>
-                    <p class="content">About Us</p>
-                    <p class="content">Rules and Reservation</p>
-                    <p class="content">Policies</p>
-                    <p class="content">Accessibility</p>
-                    <p class="content">Media Centure</p>
-                </div>
+                              Demo Address #8901 Marmora
+                              <br>
+                              Road City
+                          </span>
+                      </li>
+                  </ul>
+              </div>
+              <div class="footer__item wow animate__animated animate__fadeIn animate__delay-1s">
+                  <h3>Our links</h3>
+                  <ul>
+                      <li><a href="#">
+                              <i class="fa fa-angle-right"></i>
+                              Home
+                          </a></li>
+                      <li><a href="#">
+                              <i class="fa fa-angle-right"></i>
+                              About Us
+                          </a></li>
+                      <li><a href="#">
+                              <i class="fa fa-angle-right"></i>
+                              Services
+                          </a></li>
+                      <li><a href="#">
+                              <i class="fa fa-angle-right"></i>
+                              Team
+                          </a></li>
+                      <li><a href="#">
+                              <i class="fa fa-angle-right"></i>
+                              Blog
+                          </a></li>
+                  </ul>
+              </div>
+              <div class="footer__item wow animate__animated animate__fadeIn animate__delay-1s">
+                  <h3>Our Services</h3>
+                  <ul>
+                      <li><a href="#">
+                              <i class="fa fa-angle-right"></i>
+                              Strategy & Research
+                          </a></li>
+                      <li><a href="#">
+                              <i class="fa fa-angle-right"></i>
+                              Web Development
+                          </a></li>
+                      <li><a href="#">
+                              <i class="fa fa-angle-right"></i>
+                              Web Solution
+                          </a></li>
+                      <li><a href="#">
+                              <i class="fa fa-angle-right"></i>
+                              Digital Marketing
+                          </a></li>
+                      <li><a href="#">
+                              <i class="fa fa-angle-right"></i>
+                              App Design
+                          </a></li>
+                  </ul>
+              </div>
+              <div class="footer__item wow animate__animated animate__fadeIn animate__delay-1s">
+                  <h3>Other links</h3>
+                  <ul>
+                      <li><a href="#">
+                              <i class="fa fa-angle-right"></i>
+                              FAQ
+                          </a></li>
+                      <li><a href="#">
+                              <i class="fa fa-angle-right"></i>
+                              Portfolio
+                          </a></li>
+                      <li><a href="#">
+                              <i class="fa fa-angle-right"></i>
+                              Privacy Policy
+                          </a></li>
+                      <li><a href="#">
+                              <i class="fa fa-angle-right"></i>
+                              Terms & Conditions
+                          </a></li>
+                      <li><a href="#">
+                              <i class="fa fa-angle-right"></i>
+                              Support
+                          </a></li>
+                  </ul>
+              </div>
+          </div>
 
-                <div class="plan">
-                    <p class="title">Plan with Us</p>
-                    <p class="content">Find Trip Inspiration</p>
-                    <p class="content">Build a Trip</p>
-                    <p class="content">Buy a Pass</p>
-                    <p class="content">Enter a Lottery</p>
-                    <p class="content"><br /></p>
-                </div>
+      </div>
+      <div class="footer__copyright ">
+          <div class="container footer__content">
 
-                <div class="help-you-again">
-                    <p class="title">Let Us Help You</p>
-                    <p class="content">Your Account</p>
-                    <p class="content">Your Reservations</p>
-                    <p class="content">Contact Us</p>
-                    <p class="content">Help Centure</p>
-                    <p class="content">Submit Feedback</p>
-                </div>
-            </div>
+              <div class="footer__left">
+                  Copyright © 2021 <span>DexignZone</span> . All rights reserved.
+              </div>
+              <div class="footer__right">
+                  <a href="#">
 
-            <div class="end-line">
-                <p class="end-line-content">2020. All rights reserved</p>
-            </div>
-        </div>
-    </div>
+                      <i class="fab fa-facebook-f"></i>
+                  </a>
+                  <a href="">
+
+                      <i class="fab fa-instagram"></i>
+                  </a>
+                  <a href="">
+
+                      <i class="fab fa-twitter"></i>
+                  </a>
+              </div>
+          </div>
+      </div>
+  </footer>
 </body>
 
 </html>
